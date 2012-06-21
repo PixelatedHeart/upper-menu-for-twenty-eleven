@@ -38,3 +38,20 @@
 -khtml-border-radius: 10px 10px 0 0;
 border-radius: 10px 10px 0 0;
 } 
+
+/* Adding Media Queries. Props @ Jeff Cole <jeff.cole@coolcave.co.uk> */
+
+#branding .with-image #searchform {
+top: 5px;
+}
+
+@media (max-width: 650px) {
+	#branding img {
+	margin: 40px 0 0;
+	}
+	
+	#branding #searchform {
+	top: auto !important;
+	bottom: 1.625em !important;
+	}
+}
